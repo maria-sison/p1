@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html {
+    scroll-behavior: smooth;
+    color: hsl(0, 0%, 93%);
+}
+
+body {
+    padding-top: 80px;
+}
+
+* {
+  font-family: "Raleway";
+  box-sizing: border-box;
+}
+
+.navbar {
+  background: linear-gradient(to left, #f46b45, #eea849);
+  /* opacity: 0.85; */
+}
+
+.navbar-brand {
+    font-size: 150%;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.nav-item {
+    font-size: 115%
+}
+
+[id^="section"] {
+    padding-top: calc(80px + 10px); /*Adjust for navbar height and additional space*/
+    margin-top: -80px; /*Compensate for the margin-top added to sections*/
+}
+
+/* Style the header */
+.header {
+    padding: 15px 0px;
+    background: #6b5a40;
+    color: #f1f1f1;
+    text-align: center;
+    position: sticky;
+    z-index: 1;
+    top: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#specs{
+    padding-left: 5rem!important;
+}
+
+.timeline{
+    z-index: -1;
+}
+
+/* .card {
+    margin-bottom: 20px;
+}
+
+.card-body{
+    background-colour: add colour
+}*/
+
+.image-container img {
+    width: 100vw;
+    margin-top: -140px;
+    /* height: 10%; */
+    height: 900px;
+}
+
+#arcadia1 {
+    z-index: 1;
+    margin-top: -420px;
+}
+
+#arcadia2 {
+    z-index: 1;
+    margin-top: 0px;
+}
+
+#arcadia3 {
+    z-index: 1;
+    margin-top: 140px;
+}
+
+@media (max-width: 576px) {
+    #arcadia3 {
+        margin-top: 250px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #arcadia3 {
+        margin-top: 250px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #arcadia3 {
+        margin-top: 250px;
+    }
+  }
+
