@@ -1,3 +1,8 @@
+/* ----------------------- 
+DESN 440 Project 1
+Name: Maria Karina Sison 
+-------------------------- */
+/* Google font */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 html {
@@ -14,6 +19,8 @@ body {
   box-sizing: border-box;
 }
 
+
+/* Navbar styling---------------------- */
 .navbar {
   background: linear-gradient(to left, #f46b45, #eea849);
   /* opacity: 0.85; */
@@ -34,34 +41,44 @@ body {
     margin-top: -80px; /*Compensate for the margin-top added to sections*/
 }
 
-/* Style the header */
-.header {
-    padding: 15px 0px;
-    background: #6b5a40;
-    color: #f1f1f1;
-    text-align: center;
-    position: sticky;
-    z-index: 1;
-    top: 50px;
-    width: 100%;
-    margin-bottom: 30px;
+/* Normal state */
+.nav-link {
+    color: black; 
 }
 
-#specs{
-    padding-left: 5rem!important;
+/* Hover state */
+.nav-link:hover {
+    color: black;
+    background-color: lightgrey;
+    border-radius:10px;
+
 }
 
-.timeline{
-    z-index: -1;
+/* Selected state */
+.nav-link:active {
+    color: white;
+
 }
 
-/* .card {
-    margin-bottom: 20px;
-}
 
-.card-body{
-    background-colour: add colour
-}*/
+/* Section 1 Styling---------------------- */
+@media (max-width: 576px) {
+    #arcadia3 {
+        margin-top: 250px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #arcadia3 {
+        margin-top: 250px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #arcadia3 {
+        margin-top: 250px;
+    }
+    }
 
 .image-container img {
     width: 100vw;
@@ -85,21 +102,70 @@ body {
     margin-top: 140px;
 }
 
-@media (max-width: 576px) {
-    #arcadia3 {
-        margin-top: 250px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #arcadia3 {
-        margin-top: 250px;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    #arcadia3 {
-        margin-top: 250px;
-    }
-  }
+/* Header Styling------------------------ */
+.header {
+    padding: 15px 0px;
+    background: #6b5a40;
+    color: #f1f1f1;
+    text-align: center;
+    position: sticky;
+    z-index: 5;
+    top: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
 
+/* Timeline Styling------------------------ */
+.timeline{
+    z-index: -1;
+}
+
+.bsb-timeline-1 .timeline>.timeline-item:before {
+    background-color: #6b5a40;
+}
+
+.bsb-timeline-1 {
+    --bsb-tl-color: #efe7e1;
+}
+
+
+/* Required CSS properties------------------------ */
+#transformimg:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    filter: brightness(80%);
+}
+
+#box-shadow{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Changed background colour------------------------ */
+#scope{
+    background: #efe7e1;
+
+}
+
+
+/* Required CSS properties------------------------ */
+#carouselExampleDark{
+    padding-bottom: 3em;
+}
+
+
+#carousel-team img {
+    max-width: 200px;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 60%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

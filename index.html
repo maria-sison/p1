@@ -28,7 +28,7 @@ Name: Maria Karina Sison
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg fixed-top style=padding-top: 20px; padding-bottom: 20px;">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 px-2 h1">ASFF</span>
+                <span class="navbar-brand mb-0 px-2 h1">ARCADIA SHORT FILM FESTIVAL</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -63,7 +63,7 @@ Name: Maria Karina Sison
               
             <div class="container-fluid">
                 <!-- Project Overview -->
-                <div class="accordion" id="accordionExample">
+                <div class="accordion" id="box-shadow">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -102,7 +102,7 @@ Name: Maria Karina Sison
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <h5>Audience and User Needs</h5> 
+                        <h5>Target Audience and User Needs</h5> 
                     </button>
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -142,8 +142,8 @@ Name: Maria Karina Sison
               
                 <!-- Scope of Work -->
                 <div class="container-fluid">
-                    <h3 class="text-center pt-5 pb-3">Scope of Work</h3>
-                    <div class="card text-center">
+                    <h3 class="text-center pt-5 pb-3"><b>Scope of Work</b></h3>
+                    <div id="scope" class="card text-center">
                         <div class="card-header">
                             <ul class="nav nav-tabs card-header-pills">
                                 <li class="nav-item">
@@ -216,7 +216,7 @@ Name: Maria Karina Sison
 
                 <!-- Timeline and Milestones -->
                 <div class="container-fluid">
-                    <h3 class="text-center pt-5">Timeline and Milestones</h3>
+                    <h3 class="text-center pt-5"><b>Timeline and Milestones</b></h3>
                     <section class="bsb-timeline-1 py-5 py-xl-8">
                         <div class="container">
                         <div class="row justify-content-center">
@@ -344,42 +344,60 @@ Name: Maria Karina Sison
                 </div>
 
                 <!-- Resources -->
-                <div class="container-fluid">
-                    <h3 class="text-center pt-3">Resources</h3>
-
-                    <div class="row justify-content-center">
-                        <div class="col-lg-5 col-sm-6">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">Team Member</th>
-                                        <th scope="col">Role</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="table-group-divider">
-                                    <tr>
-                                        <td class="w-25">Collin Adoma</td>  
-                                        <td class="w-25">Project Plan Contributor</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="w-25">Maria Sison</td>
-                                        <td class="w-25">Record Keeper, Project Plan Contributor</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="w-25">Marco Tse</td>
-                                        <td class="w-25">Project Plan Contributor</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="w-25">James Yee</td>
-                                        <td class="w-25"> Communication Lead, Project Plan Contributor</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-inner">
+                        <div id="carousel-team" class="carousel-item active" data-bs-interval="2000">
+                          <img src="images/team.png" class="d-block mx-auto img-fluid" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5><b>Resources</b></h5>
+                            <p>Meet the Team!</p>
+                          </div>
                         </div>
-                        
+                      <div id="carousel-team" class="carousel-item" data-bs-interval="2000">
+                        <img src="images/collin.png" class="d-block mx-auto img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Collin Adoma</h5>
+                          <p>Project Plan Contributor</p>
+                        </div>
+                      </div>
+                      <div id="carousel-team" class="carousel-item" data-bs-interval="2000">
+                        <img src="images/ashley.png" class="d-block mx-auto img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Ashley Le</h5>
+                          <p>Project Plan Contributor</p>
+                        </div>
+                      </div>
+                      <div id="carousel-team" class="carousel-item" data-bs-interval="2000">
+                        <img src="images/maria.png" class="d-block mx-auto img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Maria Sison</h5>
+                          <p>Record Keeper & Project Plan Contributor</p>
+                        </div>
+                      </div>
+                      <div id="carousel-team" class="carousel-item" data-bs-interval="2000">
+                        <img src="images/marco.png" class="d-block mx-auto img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Marco Tse</h5>
+                          <p>Project Plan Contributor</p>
+                        </div>
+                      </div>
+                      <div id="carousel-team" class="carousel-item" data-bs-interval="2000">
+                        <img src="images/james.png" class="d-block mx-auto img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>James Yee</h5>
+                          <p>Communication Lead & Project Plan Contributor</p>
+                        </div>
+                      </div>
                     </div>
-
-                </div>    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
 
             </div>
             
@@ -390,41 +408,45 @@ Name: Maria Karina Sison
               <h2>Design and Technical Requirements</h2>
             </div>
             
-            <div class="card">
-                <div class="card-body">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col">
-                                <img src="images/brandGuidelinesjpg.jpg" class="img-fluid" alt="..."> 
-                            </div>
-                            <div class="col">
-                                <img src="images/ux:ui.jpg" class="img-fluid" alt="..."> 
-                            </div>
-                          </div>
+            <div class="container text-center pb-5">
+                <div class="row">
+                    <div class="col">
+                        <img src="images/brandGuidelinesjpg.jpg" id="transformimg" class="img-fluid" alt="..."> 
                     </div>
-                    
-                    <div class="container text-center pt-5">
-                        <div class="row">
-                          <div class="col px-lg-5">
-                            <h5 class="text-start">Technical Specifications:</h5>
-                            <ul class="text-start">
-                                <li>Hosted on GitHub</li>
-                                <li>Webflow</li>
-                                <li>Adobe XD</li>
-                                <li>Figma</li>
-                                <li>CodePen</li>
-                                <li>Sublime Text</li>
-                            </ul>
-                          </div>
-                          <div class="col">
-                            <h5 class="text-start">Responsiveness and accessibility considerations:</h5>
-                            <p class="text-start">Accessible for tablet & mobile users</p> 
-                          </div>
-                        </div>
+                    <div class="col">
+                        <img src="images/ux:ui.jpg" id="transformimg" class="img-fluid" alt="..."> 
                     </div>
+                  </div>
+            </div>
 
+            <div class="container text-center pt-2 pb-3">
+                <div class="row">
+                  <div class="col px-lg-5">
+                    <div id="transformimg" class="card">
+                        <div id="box-shadow" class="card-body">
+                            <h5 class="text-start">Technical Specifications:</h5>
+                        <ul class="text-start">
+                            <li>Hosted on GitHub</li>
+                            <li>Webflow</li>
+                            <li>Adobe XD</li>
+                            <li>Figma</li>
+                            <li>CodePen</li>
+                            <li>Sublime Text</li>
+                        </ul>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div id="transformimg" class="card">
+                        <div id="box-shadow" class="card-body">
+                            <h5 class="text-start">Responsiveness and accessibility considerations:</h5>
+                            <p class="text-start">Accessible for tablet & mobile users</p>
+                        </div>
+                      </div> 
+                  </div>
                 </div>
             </div>
+
 
 
         </section>
@@ -433,38 +455,46 @@ Name: Maria Karina Sison
             <div class="header">
               <h2>Content Strategy</h2>
             </div>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <div id="box-shadow" class="card">
+                        <div id="box-shadow" class="card-body">
+                            <h3 class="text-center pt-3 pb-3">Content Creation, Sourcing, and Management</h3>
+                            <ul class="text-start">
+                                <li>Page content will consist of a diverse selection of short films which are sourced through our received submissions from filmmakers and any collaborations with other film festivals.</li>
+                                <li>We will also have comprehensive listings for film screenings, discussions, workshops and other related events which we will update regularly to ensure accuracy and relevance.</li>
+                                <li>The creation of engaging content such as articles, interviews, reviews and behind-the-scene features will be sourced through collaboration with film critics, historians, and industry professionals willing to provide educated and insightful perspectives.</li>
+                                <li>Content such as reviews, comments and discussions will also be user-generated to foster community engagement and participation.</li>
+                                <li>Finally we will also make sure to integrate social media platforms to share festival updates, highlight featured films and to engage with our audience across several social media platforms. This will also help maximize the reach and visibility.</li>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                        <div id="box-shadow" class="card-body">
+                            <h3 class="text-center pt-3 pb-3">SEO Strategy for Content Optimization</h3>
+                            <ul class="text-start">
+                                <li>Research will be conducted to find relevant terms and phrases which can be used as keywords throughout the website for the most optimisation.</li>
+                                <li>Website content will be optimized by including target keywords not only within the keywords but also in the meta tags, headings and image alt attributes - this will help boost On-Page SEO. </li>
+                                <li>There will be a focus on creating relevant content so ensuring that the content is well-written and engaging for our target audience.</li>
+                                <li>Making sure the website is fully responsive across all platforms by using responsive design. By making the website mobile-friendly we can improve user experience and search rankings.</li>
+                                <li>Finally, implementing local SEO by including location-specific keywords such as Arcadia, Greece and Rome. </li>
+                                <li>Using Google Analytics to look at our website analytics and also using tools such as Google My Business for local listings and reviews.</li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+                </div>
 
-            <!-- Content Strategy -->
-            <div>
-                <h3 class="text-center pt-3 pb-3">Content Creation, Sourcing, and Management</h3>
-                <ul>
-                    <li>Page content will consist of a diverse selection of short films which are sourced through our received submissions from filmmakers and any collaborations with other film festivals.</li>
-                    <li>We will also have comprehensive listings for film screenings, discussions, workshops and other related events which we will update regularly to ensure accuracy and relevance.</li>
-                    <li>The creation of engaging content such as articles, interviews, reviews and behind-the-scene features will be sourced through collaboration with film critics, historians, and industry professionals willing to provide educated and insightful perspectives.</li>
-                    <li>Content such as reviews, comments and discussions will also be user-generated to foster community engagement and participation.</li>
-                    <li>Finally we will also make sure to integrate social media platforms to share festival updates, highlight featured films and to engage with our audience across several social media platforms. This will also help maximize the reach and visibility.</li>
-                    </li>
-                </ul>
-            </div>
-
-            <div>
-                <h3 class="text-center pt-3 pb-3">SEO Strategy for Content Optimization</h3>
-                <ul>
-                    <li>Research will be conducted to find relevant terms and phrases which can be used as keywords throughout the website for the most optimisation.</li>
-                    <li>Website content will be optimized by including target keywords not only within the keywords but also in the meta tags, headings and image alt attributes - this will help boost On-Page SEO. </li>
-                    <li>There will be a focus on creating relevant content so ensuring that the content is well-written and engaging for our target audience.</li>
-                    <li>Making sure the website is fully responsive across all platforms by using responsive design. By making the website mobile-friendly we can improve user experience and search rankings.</li>
-                    <li>Finally, implementing local SEO by including location-specific keywords such as Arcadia, Greece and Rome. </li>
-                    <li>Using Google Analytics to look at our website analytics and also using tools such as Google My Business for local listings and reviews.</li>
-                </ul>
-            
-            </div>
 
             <!-- Testing and Quality Assurance -->
             <div>
                 <h3 class="text-center pt-5 pb-3">Testing and Quality Assurance</h3>
             </div>
-            <div class="accordion" id="accordionExample">
+            <div class="accordion text-start" id="box-shadow">
                 <div class="accordion-item">
                   <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -560,31 +590,42 @@ Name: Maria Karina Sison
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
 
 
-              <!-- make into cards -->
-              <div class="container text-center pt-5">
+              <div class="container text-center pt-5 pb-3">
                 <div class="row align-items-start">
                   <div class="col">
-                    <h2>Launch Plan</h2>
-                    <p>
-                        After the successful creation of the Short Film Festival website, our commitment extends beyond its launch to ensure ongoing support and maintenance. 
-                        With a focus on reliability and efficiency, our team will utilize GitHub domain hosting, aligning with our preferred platform for website deployment. 
-                        This choice ensures seamless integration and facilitates swift updates whenever necessary. Ideally the website will update biannually for before and after the festival. 
-                    </p>
+                    <div id="transformimg" class="card">
+                        <div id="box-shadow" class="card-body">
+                            <h2>Launch Plan</h2>
+                            <p>
+                                After the successful creation of the Short Film Festival website, our commitment extends beyond its launch to ensure ongoing support and maintenance. 
+                                With a focus on reliability and efficiency, our team will utilize GitHub domain hosting, aligning with our preferred platform for website deployment. 
+                                This choice ensures seamless integration and facilitates swift updates whenever necessary. Ideally the website will update biannually for before and after the festival. 
+                            </p>
+                        </div>
+                      </div>
                   </div>
                   <div class="col">
-                    <h2>Risk Management</h2>
-                    <p>Hosting on github will restrict in-depth levels of customization. Other than further customization, github hosting seems safe, low-cost, maintainable, and relatively easy-to-use.
-                        In the event of github going down, we run the risk of our own website going down as well. If this becomes a problem we can migrate to a different hosting service.
-                        </p>
+                    <div id="transformimg" class="card">
+                        <div id="box-shadow" class="card-body">
+                            <h2>Risk Management</h2>
+                            <p>Hosting on github will restrict in-depth levels of customization. Other than further customization, github hosting seems safe, low-cost, maintainable, and relatively easy-to-use.
+                                In the event of github going down, we run the risk of our own website going down as well. If this becomes a problem we can migrate to a different hosting service.
+                            </p>
+                        </div>
+                      </div>
                   </div>
                   <div class="col">
-                    <h2>Post-Launch Strategy</h2>
-                    <p>
-                        Maintenance and updates will happen at least biannual based on the festival and seasons. Metrics and performance evaluation will be obtained using Google Analytics to collect data and review. Digital marketing will be managed using social media communications.
-                    </p>
+                    <div id="transformimg" class="card">
+                        <div id="box-shadow" class="card-body">
+                            <h2>Post-Launch Strategy</h2>
+                            <p>
+                                Maintenance and updates will happen at least biannual based on the festival and seasons. Metrics and performance evaluation will be obtained using Google Analytics to collect data and review. Digital marketing will be managed using social media communications.
+                            </p>
+                        </div>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -595,15 +636,72 @@ Name: Maria Karina Sison
             <div class="header">
               <h2>Appendix</h2>
             </div>
+
+            <div>
+                <h3 class="text-center pt-3 pb-4"><b>Audit of Existing Websites</b></h3>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <img src="images/tiff.jpg" class="d-block mx-auto img-fluid" alt="...">
+                    <img src="images/tiff-nav.png" id="transformimg" class="d-block mx-auto img-fluid" alt="...">
+                  </div>
+                  <div class="col">
+                    <img src="images/tiff-audit.png" id="transformimg" class="d-block mx-auto img-fluid" alt="...">
+                    <img src="images/tiff-submissions.png" id="transformimg" class="d-block mx-auto img-fluid" alt="...">
+                    <img src="images/tiff-home.png" id="transformimg" class="d-block mx-auto img-fluid" alt="...">
+                  </div>
+                </div>
+            </div>
+
             
+            <div class="container text-center pt-5">
+                <div class="row">
+                  <div class="col">
+                    <img src="images/atlantafilmfest.jpg" class="d-block mx-auto img-fluid my-4" alt="...">
+                  </div>
+                  <div class="col">
+                    <img src="images/atlanta.jpg" id="transformimg" class="d-block mx-auto img-fluid" alt="...">
+                  </div>
+                </div>
+            </div>
 
+
+            <!-- CLIENT INTERVIEW QUESTIONS -->
+            <div>
+                <h3 class="text-center pt-5 pb-3">Client Interview Questions</h3>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="images/clientq1.jpg" class="d-block mx-auto img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/clientq2.jpg" class="d-block mx-auto img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/clientq3.jpg" class="d-block mx-auto img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/clientq4.jpg" class="d-block mx-auto img-fluid" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
           </section>
-
-
-
-
-
-
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
     </body>
