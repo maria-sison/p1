@@ -62,44 +62,12 @@ body {
 
 
 /* Section 1 Styling---------------------- */
-@media (max-width: 576px) {
-    #arcadia3 {
-        margin-top: 250px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #arcadia3 {
-        margin-top: 250px;
-    }
-  }
-  
-  @media (max-width: 992px) {
-    #arcadia3 {
-        margin-top: 250px;
-    }
-    }
 
 .image-container img {
     width: 100vw;
     margin-top: -140px;
     /* height: 10%; */
     height: 900px;
-}
-
-#arcadia1 {
-    z-index: 1;
-    margin-top: -420px;
-}
-
-#arcadia2 {
-    z-index: 1;
-    margin-top: 0px;
-}
-
-#arcadia3 {
-    z-index: 1;
-    margin-top: 140px;
 }
 
 /* Header Styling------------------------ */
